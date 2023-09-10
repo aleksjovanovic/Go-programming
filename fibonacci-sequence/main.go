@@ -23,7 +23,11 @@ func fS(n int) {
 		}
 		fmt.Println(sequence) // printing step by step
 	}
-	// fmt.Println(sequence) printing whole sequence
+	// fmt.Println(sequence)  printing whole sequence
+
+	// 	for k, v := range sequence {
+	// 		fmt.Println(k+1, ":", v)
+	// 	}
 }
 
 func main() {
