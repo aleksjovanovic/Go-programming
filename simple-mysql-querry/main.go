@@ -16,7 +16,7 @@ type Person struct {
 }
 
 func main() {
-	db, err := sql.Open("mysql", "root:@tcp(localhost)/test_db")
+	db, err := sql.Open("mysql", "root:@tcp(127.0.0.1:3306)/test_db") //127.0.0.1:3306 <=> "localhost"
 	if err != nil {
 		panic(err.Error())
 	}
